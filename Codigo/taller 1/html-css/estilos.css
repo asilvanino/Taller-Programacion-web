@@ -1,0 +1,155 @@
+body{
+
+}
+
+body {
+margin: 0;
+padding: 0;
+font: normal 13px arial, helvetica, sans-serif;
+background: url(img/fondorealnofake.jpg);
+}
+
+#contenedor {
+margin: 0 auto;
+width: 900px;
+}
+
+#cabecera {
+height: 120px;
+background: url(img/fondo.jpg);
+}
+
+#cabecera h1 {
+margin: 0;
+padding: 25px;
+font: bold 50px arial, helvetica, sans-serif;
+color: white;
+}
+
+#menu {
+background-color: lightblue;
+height: 30px;
+}
+
+#fondomenu {
+background-color: beige;
+width: 485px;
+height: 30px;
+}
+
+#fondomenu ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#fondomenu ul li a {
+background-color: black;
+width: 120px;
+height: 30px;
+margin-left: 1px;
+float: left;
+text-align: center;
+line-height: 30px;
+font-size: 13px;
+color: white;
+text-decoration: none;
+display: block;
+}
+
+#section1  {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: lightblue;
+  height: 700px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img{
+  height: 600px;
+  width: 900px;
+  margin-top: 49px;;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+#section2{
+  height: 800px;
+  width: 1300px;
+  margin-top: 49px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#section2 img {
+  width: 100%;
+}
+
+.columna {
+  width:33%;
+  float:left;
+}
+
+@media (max-width: 500px) {
+
+  .columna {
+    width:auto;
+    float:none;
+  }
+
+}
+
+#section3  {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: lightblue;
+  height: 700px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#color1{
+  background: green;
+}
+
+#color2{
+  background: Red;
+}
+
+#color3{
+  background: blue;
+}
+
+textarea{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+ #section4 {
+     margin-top: 30px;
+     padding: 10px;
+     background-color: lightblue;
+     height: 800px;
+     width: 1400px;
+     margin-left: auto;
+     margin-right: auto;
+ }

@@ -1,0 +1,118 @@
+
+.hero-full-screen {
+  height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: url("imagenes/fondo.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.hero-full-screen .middle-content-section {
+  text-align: center;
+  color: #fefefe;
+}
+
+.hero-full-screen .top-content-section {
+  width: 100%;
+}
+
+.hero-full-screen .bottom-content-section {
+  padding: 1rem;
+}
+
+.hero-full-screen .bottom-content-section svg {
+  height: 3.75rem;
+  width: 3.75rem;
+  fill: #fefefe;
+}
+
+.hero-full-screen .top-bar {
+  background: transparent;
+}
+
+.hero-full-screen .top-bar .menu {
+  background: transparent;
+}
+
+.hero-full-screen .top-bar .menu-text {
+  color: #fefefe;
+}
+
+.hero-full-screen .top-bar .menu li {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-full-screen .top-bar .menu a {
+  color: #fefefe;
+  font-weight: bold;
+}
+
+#section1{
+  background-color: lightblue;
+  width: 100%;
+  height: 700px;
+
+}
+
+#centrar {
+  background-color: white;
+  margin-top: 20px;
+  display: block;
+  text-align: -webkit-center;
+}
+ .formu {
+   margin-top: 35px;
+   background-color: lightblue;
+   margin-left: 70px;
+   margin-right: 70px;
+
+ }
+
+ #title {
+   margin-left: 35px;
+   text-align: center;
+   font-size: 60px;
+ }
+
+ #callout {
+   margin-top: 35px;
+   margin-left: 90px;
+   margin-right: 90px;
+ }
+
+ #c1{
+   margin-top: 35px;
+   width: 700px;
+   height: 800px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ #galery {
+   margin-left: 70px;
+   margin-right: 70px;
+   background-color: lightblue;
+   height:1260px;
+ }
+
+ #finaltext{
+   margin-top: 35px;
+   background-color: blue;
+   margin-left: 70px;
+   margin-right: 70px;
+ }

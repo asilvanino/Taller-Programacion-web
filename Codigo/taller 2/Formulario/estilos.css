@@ -1,0 +1,44 @@
+body{
+  background: url("imagenes/fondo.jpg");
+}
+
+form{
+  padding: 10px;
+  background: lightblue;
+  margin-top: 15px;
+
+}
+
+input[type = 'text']{
+  height: 50%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+select.form-control{
+  height: 50%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h6{
+  text-align: center;
+}
+button.btn-primary{
+  margin-top: 20px;
+}
+
+label{
+  margin-left: 10px;
+
+}
+
+#contenedor  {
+  background-color: white;
+}
+
+#con{
+  background-color:lightblue;
+}

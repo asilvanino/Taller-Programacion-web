@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Formulario</title>
+  </head>
+  <body>
+
+    <!--Menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <h3>Home</h3>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Formulario</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Manipulacion de datos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="delete.html">delete</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!--Formulario-->
+
+    <div class="container">
+      <form action="index.html" method="post">
+        <h6>Personal Information</h6>
+        <label>First name</label>
+        <input class="form-control" type="text" id="name">
+        <label>Last name</label>
+        <input class="form-control" type="text" id="last">
+        <label>e-mail</label>
+        <input class="form-control" type="text" id="mail">
+
+        <h6>Credit card information</h6>
+        <label>Credit card type</label>
+        <select class="form-control" id="typecard">
+          <option>select</option>
+          <option>Visa</option>
+          <option>Master card</option>
+          <option>Maestro</option>
+          <option>PAYBACK</option>
+        </select>
+        <label>Card number</label>
+        <input class="form-control" type="text" id="num">
+        <label>CVV2</label>
+        <input class="form-control" type="text" id="cvv2">
+        <label>Exp date</label>
+        <select class="form-control" id="year">
+          <option>2019</option>
+          <option>2018</option>
+          <option>2017</option>
+          <option>2016</option>
+          <option>2015</option>
+          <option>2014</option>
+          <option>2013</option>
+          <option>2012</option>
+          <option>2011</option>
+          <option>2010</option>
+          <option>2009</option>
+          <option>2008</option>
+          <option>2007</option>
+          <option>2006</option>
+          <option>2005</option>
+          <option>2004</option>
+          <option>2003</option>
+          <option>2002</option>
+          <option>2001</option>
+          <option>2000</option>
+        </select>
+        <select class="form-control" id="month">
+          <option>january</option>
+          <option>february</option>
+          <option>March</option>
+          <option>April</option>
+          <option>May</option>
+          <option>June</option>
+          <option>July</option>
+          <option>August</option>
+          <option>September</option>
+          <option>october</option>
+          <option>Nobember</option>
+          <option>December</option>
+        </select>
+
+        <h6>Billing Address</h6>
+        <label>Street address</label>
+        <input class="form-control" type="text" id="address">
+        <label>city</label>
+        <input class="form-control" type="text" id="city">
+        <label>State</label>
+        <input type="text" class="form-control" id="state">
+        <label>zip</label>
+        <input type="text" class="form-control" id="zip">
+        <label>Country</label>
+        <input type="text" class="form-control" id="country">
+        <label>phone</label>
+        <input type="text" class="form-control" id="phone">
+
+        <div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div>
+
+        <button class="btn btn-primary btn-lg btn-block" type="button" id="listo" onclick="send()">Send</button>
+      </form>
+
+      <div class="container">
+        <div id="contenedor"></div>
+      </div>
+    </div>
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="ajax.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  </body>
+</html>

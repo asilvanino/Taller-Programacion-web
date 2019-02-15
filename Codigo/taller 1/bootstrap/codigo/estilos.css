@@ -1,0 +1,110 @@
+body{
+  background-image:url("../img/fondo.jpg");
+}
+#titulo{
+  margin: auto;
+  margin-top: 30px;
+}
+
+.container{
+  display: block;
+  text-align: -webkit-center;
+}
+#menu {
+  margin: auto;
+  margin-top: 30px;
+  background-color:	#FFCC00;
+  height: 80px;
+}
+
+button{
+  margin-top: 20px;
+}
+
+#Photos{
+  margin: auto;
+  margin-top: 20px;
+}
+
+#slide {
+  margin: auto;
+  margin-top: 60px;
+
+}
+
+#formulario{
+  margin: auto;
+  margin-top: 40px;
+}
+
+#forma{
+  margin: auto;
+  margin-top: 45px;
+  background-color:#FFCC00 ;
+}
+
+#imga{
+  margin: auto;
+  margin-top: 45px;
+}
+
+#Final {
+  margin: auto;
+  margin-top: 100px;
+}
+
+#Dream {
+  margin: auto;
+  margin-top: 40px;
+}
+
+#end {
+  margin: auto;
+  margin-top: 40px;
+}
+
+#messages {
+  margin: auto;
+  margin-top: 40px;
+}
+
+#video {
+  margin: auto;
+  margin-top: 40px;
+}
+
+#video1{
+  margin: auto;
+  margin-top: 45px;
+  background-color:#FFCC00 ;
+}
+
+#colapse {
+  margin: auto;
+  margin-top: 40px;
+}
+
+#list {
+  margin: auto;
+  margin-top: 40px;
+}
+
+#card{
+  margin: auto;
+  margin-top: 80px;
+}
+
+#c1{
+  float: left;
+  margin-left: 100px;
+}
+
+#c2 {
+  float: right;
+  margin-right: 100px;
+}
+
+#link{
+  margin: auto;
+  margin-top: 80px
+}
